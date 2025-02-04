@@ -1,0 +1,86 @@
+
+body{
+
+font-family: 'Roboto';
+
+}
+
+.container {
+	margin: auto;
+	max-width: 1000px;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  padding-right: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: -35px;
+  
+  
+}
+p{
+  max-width: 800px;
+}
+
+
+
+
+#contact-form .form-group {
+	margin-bottom: 20px;
+}
+
+#contact-form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+
+#contact-form input,
+#contact-form textarea {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #333 ;
+}
+
+#contact-form textarea {
+	height: 150px;
+}
+
+#contact-form{
+
+  width: 800px;
+
+}
+.btn {
+	display: block;
+	border-radius: 50px/25px;
+	padding: 5px;
+  width: 250px;
+	font-size: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: black;
+  color: white;
+}
+footer a{
+  text-decoration: none;
+  color: gray;
+
+}
+
+footer a:hover{
+  color: green;
+}
+footer{
+  font-size: 20px;
+}
+
